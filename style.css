@@ -10,6 +10,7 @@ body{background:#f8f5f0;color:var(--text);font-family:'Jost',sans-serif;font-wei
 
 /* PROGRESS */
 @keyframes sd{0%{top:-100%}100%{top:200%}}
+@keyframes sd{0%{top:-100%}100%{top:200%}}
 
 
 /* CURSOR */
