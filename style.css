@@ -144,7 +144,7 @@ animation:logoPulse 2.4s ease-out infinite;
 .hero-badge{position:absolute;bottom:3rem;right:2rem;background:var(--gold);color:var(--dark);padding:1.1rem 1.4rem;border-radius:3px;text-align:center;font-family:'Cormorant Garamond',serif}
 .hero-badge .big{font-size:2.8rem;font-weight:700;line-height:1;display:block}
 .hero-badge .sm{font-size:0.55rem;letter-spacing:0.15em;text-transform:uppercase}
-.hero-scroll{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:0.4rem;opacity:0;animation:fadeUp 0.8s 1.5s ease forwards}
+.hero-scroll{position:absolute;bottom:-3rem;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:0.4rem;opacity:0;animation:fadeUp 0.8s 1.5s ease forwards}
 .hero-scroll span{font-size:0.52rem;letter-spacing:0.3em;text-transform:uppercase;color:rgba(255,255,255,0.22)}
 .scroll-line{width:1px;height:35px;background:rgba(255,255,255,0.1);position:relative;overflow:hidden}
 .scroll-line::after{content:'';position:absolute;top:-100%;left:0;right:0;height:50%;background:var(--gold);animation:scrollAnim 1.5s ease-in-out infinite}
@@ -377,7 +377,7 @@ footer{background:#070a07;padding:4.5rem 4rem 2rem}
 .lb img{max-width:90vw;max-height:86vh;object-fit:contain;border-radius:4px}
 .lb-x{position:fixed;top:1.5rem;right:2rem;color:#fff;font-size:1.8rem;cursor:pointer;opacity:0.5;background:none;border:none;transition:opacity 0.2s}
 .lb-x:hover{opacity:1}
-.lb-cap{position:fixed;bottom:2rem;left:50%;transform:translateX(-50%);font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:rgba(255,255,255,0.3)}
+.lb-cap{position:fixed;bottom:-3rem;left:50%;transform:translateX(-50%);font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:rgba(255,255,255,0.3)}
 
 
 @media(max-width:900px){
