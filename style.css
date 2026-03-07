@@ -9,7 +9,6 @@ body{background:#f8f5f0;color:var(--text);font-family:'Jost',sans-serif;font-wei
 @media(max-width:900px){body{cursor:auto}}
 
 /* PROGRESS */
-#prog{position:fixed;top:0;left:0;height:3px;width:0%;background:linear-gradient(to right,var(--green2),var(--gold),var(--gold2));z-index:999999;transition:width 0.1s linear;box-shadow:0 0 8px rgba(201,168,76,0.6)}
 
 
 /* CURSOR */
